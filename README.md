@@ -1,11 +1,14 @@
 # js-object-manipulation
-const sculptureListLengths = {}; 
+const sculptureList = require('./data.js'); // import data.js
 
-sculptureList.forEach((sculpture, index) => { 
-    sculptureListLengths[index] = {}; 
-    Object.keys(sculpture).forEach(key => {
-        sculptureListLengths[index][key] = String(sculpture[key]).length; 
-    });
+const sculptureListLengths = sculptureList.map(sculpture => {
+    let lengthObject = {};
+    
+    for (const key in sculpture) {
+        lengthObject[key] = sculpture[key].length;
+    }
+
+    return lengthObject;
 });
 
-console.log(sculptureListLengths); 
+console.log(sculptureListLengths);
