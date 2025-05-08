@@ -19,8 +19,8 @@ This shows JavaScript object manipulation
 
 # Solution
 
-name: 17
-artist: 16
-description: 188
-url: 32
-alt: 91
+    name: 17
+    artist: 16
+    description: 188
+    url: 32
+    alt: 91
