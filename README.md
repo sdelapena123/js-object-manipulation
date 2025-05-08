@@ -18,3 +18,9 @@ This shows JavaScript object manipulation
     console.log(sculptureListLengths);
 
 # Solution
+
+name: 17
+artist: 16
+description: 188
+url: 32
+alt: 91
