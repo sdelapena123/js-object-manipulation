@@ -1,4 +1,8 @@
 # js-object-manipulation
+
+# Overview
+This shows JavaScript object manipulation
+
     const sculptureList = require('./data.js');
 
     const sculptureListLengths = sculptureList.map(sculpture => {
