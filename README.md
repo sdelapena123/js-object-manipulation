@@ -16,3 +16,5 @@ This shows JavaScript object manipulation
     });
 
     console.log(sculptureListLengths);
+
+# Solution
